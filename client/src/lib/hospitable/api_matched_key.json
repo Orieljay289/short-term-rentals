@@ -1,0 +1,313 @@
+{
+    "Property": [
+        {
+            "jsonField": "data.id",
+            "matchedKey": "id",
+            "APIEndpoint": "/api/v1/customers/{customer}/listings/{listing}"
+        },
+
+        {
+            "jsonField": "data.public_name",
+            "matchedKey": "name",
+            "APIEndpoint": "/api/v1/customers/{customer}/listings/{listing}"
+        },
+        {
+            "jsonField": "data.private_name",
+            "matchedKey": "private_name",
+            "APIEndpoint": "/api/v1/customers/{customer}/listings/{listing}"
+        },
+        {
+            "jsonField": "data.picture",
+            "matchedKey": "imageUrl",
+            "APIEndpoint": "/api/v1/customers/{customer}/listings/{listing}"
+        },
+        {
+            "jsonField": "data.description",
+            "matchedKey": "description",
+            "APIEndpoint": "/api/v1/customers/{customer}/listings/{listing}"
+        },
+        {
+            "jsonField": "data.address.street",
+            "matchedKey": "address.street",
+            "APIEndpoint": "/api/v1/customers/{customer}/listings/{listing}"
+        },
+        {
+            "jsonField": "data.address.latitude",
+            "matchedKey": "address.latitude",
+            "APIEndpoint": "/api/v1/customers/{customer}/listings/{listing}"
+        },
+        {
+            "jsonField": "data.address.longitude",
+            "matchedKey": "address.longitude",
+            "APIEndpoint": "/api/v1/customers/{customer}/listings/{listing}"
+        },
+
+        {
+            "jsonField": "data.address.city",
+            "matchedKey": "address.city",
+            "APIEndpoint": "/api/v1/customers/{customer}/listings/{listing}"
+        },
+        {
+            "jsonField": "data.address.state",
+            "matchedKey": "address.state",
+            "APIEndpoint": "/api/v1/customers/{customer}/listings/{listing}"
+        },
+        {
+            "jsonField": "data.address.zipcode",
+            "matchedKey": "address.zip",
+            "APIEndpoint": "/api/v1/customers/{customer}/listings/{listing}"
+        },
+        {
+            "jsonField": "data.address.country_code",
+            "matchedKey": "address.country",
+            "APIEndpoint": "/api/v1/customers/{customer}/listings/{listing}"
+        },
+        {
+            "jsonField": "data.amenities",
+            "matchedKey": "amenities",
+            "APIEndpoint": "/api/v1/customers/{customer}/listings/{listing}"
+        },
+        {
+            "jsonField": "data.capacity.max",
+            "matchedKey": "capacity.guests",
+            "APIEndpoint": "/api/v1/customers/{customer}/listings/{listing}"
+        },
+        {
+            "jsonField": "data.property_type",
+            "matchedKey": "type",
+            "APIEndpoint": "/api/v1/customers/{customer}/listings/{listing}"
+        },
+        {
+            "jsonField": "data.capacity.bedrooms",
+            "matchedKey": "capacity.bedrooms",
+            "APIEndpoint": "/api/v1/customers/{customer}/listings/{listing}"
+        },
+        {
+            "jsonField": "data.capacity.beds",
+            "matchedKey": "capacity.beds",
+            "APIEndpoint": "/api/v1/customers/{customer}/listings/{listing}"
+        },
+        {
+            "jsonField": "data.capacity.bathrooms",
+            "matchedKey": "capacity.bathrooms",
+            "APIEndpoint": "/api/v1/customers/{customer}/listings/{listing}"
+        },
+        {
+        "jsonField": "data.fees[?(@.name=='PASS_THROUGH_CLEANING_FEE')].fee.amount",
+        "matchedKey": "pricing.cleaningFee",
+        "APIEndpoint": "/api/v1/customers/{customer}/listings/{listing}"
+        },
+        {
+        "jsonField": "data.fees[?(@.name=='PASS_THROUGH_MANAGEMENT_FEE')].fee.amount",
+        "matchedKey": "pricing.serviceFee",
+        "APIEndpoint": "/api/v1/customers/{customer}/listings/{listing}"
+        },
+
+        {
+            "jsonField": "data.fees[0].fee.currency",
+            "matchedKey": "pricing.currency",
+            "APIEndpoint": "/api/v1/customers/{customer}/listings/{listing}"
+        },
+        {
+            "jsonField": "data.check_in",
+            "matchedKey": "availability.checkIn",
+            "APIEndpoint": "/api/v1/customers/{customer}/listings/{listing}"
+        },
+        {
+            "jsonField": "data.check_out",
+            "matchedKey": "availability.checkOut",
+            "APIEndpoint": "/api/v1/customers/{customer}/listings/{listing}"
+        },
+        {
+            "jsonField": "data.channels",
+            "matchedKey": "channels",
+            "APIEndpoint": "/api/v1/customers/{customer}/listings/{listing}"
+        },
+        {
+            "jsonField": "data.channel",
+            "matchedKey": "channel",
+            "APIEndpoint": "/api/v1/customers/{customer}/listings/{listing}"
+        },
+        {
+            "jsonField": "data.channel.picture",
+            "matchedKey": "hostImage",
+            "APIEndpoint": "/api/v1/customers/{customer}/listings/{listing}"
+        },
+        {
+            "jsonField": "data.channel.name",
+            "matchedKey": "hostName",
+            "APIEndpoint": "/api/v1/customers/{customer}/listings/{listing}"
+        },
+        {
+            "jsonField": "data.channel.id",
+            "matchedKey": "hostId",
+            "APIEndpoint": "/api/v1/customers/{customer}/listings/{listing}"
+        },
+        {
+            "jsonField": "data.details",
+            "matchedKey": "metadata",
+            "APIEndpoint": "/api/v1/customers/{customer}/listings/{listing}"
+        },
+        {
+            "jsonField": "data.house_rules",
+            "matchedKey": "metadata",
+            "APIEndpoint": "/api/v1/customers/{customer}/listings/{listing}"
+        },
+        {
+            "jsonField": "data",
+            "matchedKey": "images",
+            "APIEndpoint": "/api/v1/customers/{customer}/listings/{listing}/images"
+        },
+        {
+            "jsonField": "data.dates[0].price.amount",
+            "matchedKey": "pricing.basePrice",
+            "APIEndpoint": "/api/v1/listings/{listing}/calendar"
+        },
+        {
+            "jsonField": "data.dates[0].availability.min_stay",
+            "matchedKey": "availability.minStay",
+            "APIEndpoint": "/api/v1/listings/{listing}/calendar"
+        },
+        {
+            "jsonField": "data.dates[0].availability.max_stay",
+            "matchedKey": "availability.maxStay",
+            "APIEndpoint": "/api/v1/listings/{listing}/calendar"
+        },
+        {
+            "jsonField": "data.room_details",
+            "matchedKey": "bedroomDetails",
+            "APIEndpoint": "/api/v1/customers/{customer}/listings/{listing}"
+        }
+    ],
+    "Customer": [
+       
+        {
+            "jsonField": "id",
+            "matchedKey": "id",
+            "APIEndpoint": "/api/v1/customers/{customer}"
+        },
+        {
+            "jsonField": "name",
+            "matchedKey": "name",
+            "APIEndpoint": "/api/v1/customers/{customer}"
+        },
+        {
+            "jsonField": "email",
+            "matchedKey": "email",
+            "APIEndpoint": "/api/v1/customers/{customer}"
+        },
+        {
+            "jsonField": "phone",
+            "matchedKey": "phone",
+            "APIEndpoint": "/api/v1/customers/{customer}"
+        },
+        {
+            "jsonField": "timezone",
+            "matchedKey": "timezone",
+            "APIEndpoint": "/api/v1/customers/{customer}"
+        },
+        {
+            "jsonField": null,
+            "matchedKey": "createdAt",
+            "APIEndpoint": null
+        },
+        {
+            "jsonField": null,
+            "matchedKey": "updatedAt",
+            "APIEndpoint": null
+        },
+
+        {
+            "jsonField": "data.id",
+            "matchedKey": "id",
+            "APIEndpoint": "/api/v1/customers/{customer}"
+        },
+        {
+            "jsonField": "data.name",
+            "matchedKey": "name",
+            "APIEndpoint": "/api/v1/customers/{customer}"
+        },
+        {
+            "jsonField": "data.email",
+            "matchedKey": "email",
+            "APIEndpoint": "/api/v1/customers/{customer}"
+        },
+        {
+            "jsonField": "data.phone",
+            "matchedKey": "phone",
+            "APIEndpoint": "/api/v1/customers/{customer}"
+        },
+        {
+            "jsonField": "data.timezone",
+            "matchedKey": "timezone",
+            "APIEndpoint": "/api/v1/customers/{customer}"
+        },
+        {
+            "jsonField": null,
+            "matchedKey": "createdAt",
+            "APIEndpoint": null
+        },
+        {
+            "jsonField": null,
+            "matchedKey": "updatedAt",
+            "APIEndpoint": null
+        }
+    ],
+    "Booking": [
+        {
+            "jsonField": "data[0].id",
+            "matchedKey": "id",
+            "APIEndpoint": "/api/v1/listings/{listing}/reservations"
+        },
+        {
+            "jsonField": "data[0].arrival_date",
+            "matchedKey": "checkIn",
+            "APIEndpoint": "/api/v1/listings/{listing}/reservations"
+        },
+        {
+            "jsonField": "data[0].departure_date",
+            "matchedKey": "checkOut",
+            "APIEndpoint": "/api/v1/listings/{listing}/reservations"
+        },
+        {
+            "jsonField": "data[0].guests.total",
+            "matchedKey": "guests",
+            "APIEndpoint": "/api/v1/listings/{listing}/reservations"
+        },
+        {
+            "jsonField": "data[0].financials.guest.total_price.amount",
+            "matchedKey": "totalPrice",
+            "APIEndpoint": "/api/v1/listings/{listing}/reservations"
+        },
+        {
+            "jsonField": "data[0].status",
+            "matchedKey": "status",
+            "APIEndpoint": "/api/v1/listings/{listing}/reservations"
+        },
+        {
+            "jsonField": "data[0].booking_date",
+            "matchedKey": "createdAt",
+            "APIEndpoint": "/api/v1/listings/{listing}/reservations"
+        },
+        {
+            "jsonField": "data[0].check_out_local",
+            "matchedKey": "updatedAt",
+            "APIEndpoint": "/api/v1/listings/{listing}/reservations"
+        },
+        {
+            "jsonField": "data[0].listing_id",
+            "matchedKey": "propertyId",
+            "APIEndpoint": "/api/v1/listings/{listing}/reservations"
+        },
+        {
+            "jsonField": "data[0].guest.email",
+            "matchedKey": "customerId",
+            "APIEndpoint": "/api/v1/listings/{listing}/reservations"
+        }
+    ]
+
+
+
+
+
+}
