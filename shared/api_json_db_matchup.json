@@ -1,0 +1,158 @@
+
+{
+    "users":
+  [
+    { "keyField": "id", "matchedColumn": "id", "interfaceName": "Customer" },
+    { "keyField": "name", "matchedColumn": "fullName", "interfaceName": "Customer" },
+    { "keyField": "email", "matchedColumn": "email", "interfaceName": "Customer" },
+    { "keyField": "id", "matchedColumn": "password", "interfaceName": "Customer" },
+    { "keyField": "phone", "matchedColumn": "phone", "interfaceName": "Customer" },
+    { "keyField": "id", "matchedColumn": "username", "interfaceName": "Customer" }
+
+  ],
+  "properties":
+  [
+    { "keyField": "id", "matchedColumn": "id", "interfaceName": "Property" },
+    { "keyField": "name", "matchedColumn": "name", "interfaceName": "Property" },
+    { "keyField": "private_name", "matchedColumn": "location", "interfaceName": "Property" },
+    { "keyField": "description", "matchedColumn": "description", "interfaceName": "Property" },
+    { "keyField": "address.city", "matchedColumn": "city", "interfaceName": "Property" },
+    { "keyField": "address.state", "matchedColumn": "state", "interfaceName": "Property" },
+    { "keyField": "address.zip", "matchedColumn": "zip_code", "interfaceName": "Property" },
+    { "keyField": "address.country", "matchedColumn": "country", "interfaceName": "Property" },
+    { "keyField": "address.neighborhood", "matchedColumn": "neighborhood", "interfaceName": "Property" },
+    { "keyField": "address.latitude", "matchedColumn": "latitude", "interfaceName": "Property" },
+    { "keyField": "address.longitude", "matchedColumn": "longitude", "interfaceName": "Property" },
+    { "keyField": "pricing.basePrice", "matchedColumn": "price", "interfaceName": "Property" },
+    { "keyField": "pricing.cleaningFee", "matchedColumn": "cleaning_fee", "interfaceName": "Property" },
+    { "keyField": "pricing.serviceFee", "matchedColumn": "service_fee", "interfaceName": "Property" },
+    { "keyField": "availability.minStay", "matchedColumn": "min_stay", "interfaceName": "Property" },
+    { "keyField": "availability.maxStay", "matchedColumn": "max_stay", "interfaceName": "Property" },
+    { "keyField": "rating", "matchedColumn": "rating", "interfaceName": "Property" },
+    { "keyField": "reviewsCount", "matchedColumn": "review_count", "interfaceName": "Property" },
+    { "keyField": "type", "matchedColumn": "type", "interfaceName": "Property" },
+    { "keyField": "capacity.bedrooms", "matchedColumn": "bedrooms", "interfaceName": "Property" },
+    { "keyField": "capacity.bathrooms", "matchedColumn": "bathrooms", "interfaceName": "Property" },
+    { "keyField": "capacity.guests", "matchedColumn": "maxGuests", "interfaceName": "Property" },
+    { "keyField": "amenities", "matchedColumn": "amenities", "interfaceName": "Property" },
+    { "keyField": "imageUrl", "matchedColumn": "imageUrl", "interfaceName": "Property" },
+    { "keyField": "images[].url", "matchedColumn": "additional_images", "interfaceName": "Property" },
+    { "keyField": null, "matchedColumn": "location", "interfaceName": null },
+    { "keyField": null, "matchedColumn": "weekend_price", "interfaceName": null },
+    { "keyField": null, "matchedColumn": "weekly_price", "interfaceName": null },
+    { "keyField": null, "matchedColumn": "monthly_price", "interfaceName": null },
+    { "keyField": null, "matchedColumn": "tax_rate", "interfaceName": null },
+    { "keyField": null, "matchedColumn": "property_size", "interfaceName": null },
+    { "keyField": null, "matchedColumn": "year_built", "interfaceName": null },
+    { "keyField": "bedroomDetails", "matchedColumn": "bedroomDetails", "interfaceName": "Property" },
+    { "keyField": null, "matchedColumn": "video_url", "interfaceName": null },
+    { "keyField": null, "matchedColumn": "virtual_tour_url", "interfaceName": null },
+    { "keyField": "hostId", "matchedColumn": "hostId", "interfaceName": "Property" },
+    { "keyField": "hostName", "matchedColumn": "hostName", "interfaceName": "Property" },
+    { "keyField": "hostImage", "matchedColumn": "hostImage", "interfaceName": "Property" },
+    { "keyField": "bookingWidgetUrl", "matchedColumn": "bookingWidgetUrl", "interfaceName": "Property" },
+    { "keyField": null, "matchedColumn": "review_widget_code", "interfaceName": null },
+    { "keyField": null, "matchedColumn": "calendar_sync_url", "interfaceName": null },
+    { "keyField": null, "matchedColumn": "pms_id", "interfaceName": null },
+    { "keyField": null, "matchedColumn": "channel_manager_id", "interfaceName": null },
+    { "keyField": null, "matchedColumn": "external_source", "interfaceName": null },
+    { "keyField": null, "matchedColumn": "last_synced_at", "interfaceName": null },
+    { "keyField": null, "matchedColumn": "slug", "interfaceName": null },
+    { "keyField": null, "matchedColumn": "meta_title", "interfaceName": null },
+    { "keyField": null, "matchedColumn": "meta_description", "interfaceName": null },
+    { "keyField": null, "matchedColumn": "canonical_url", "interfaceName": null },
+    { "keyField": null, "matchedColumn": "keywords", "interfaceName": null },
+    { "keyField": null, "matchedColumn": "is_featured", "interfaceName": null },
+    { "keyField": null, "matchedColumn": "is_active", "interfaceName": null },
+    { "keyField": null, "matchedColumn": "is_verified", "interfaceName": null },
+    { "keyField": null, "matchedColumn": "status", "interfaceName": null },
+    { "keyField": null, "matchedColumn": "created_at", "interfaceName": null },
+    { "keyField": null, "matchedColumn": "updated_at", "interfaceName": null },
+    { "keyField": null, "matchedColumn": "published_at", "interfaceName": null }
+  ],
+
+  "cities": 
+  [
+    { "keyField": null, "matchedColumn": "id", "interfaceName": null },
+    { "keyField": null, "matchedColumn": "name", "interfaceName": null },
+    { "keyField": null, "matchedColumn": "country", "interfaceName": null },
+    { "keyField": null, "matchedColumn": "state", "interfaceName": null },
+    { "keyField": null, "matchedColumn": "description", "interfaceName": null },
+    { "keyField": null, "matchedColumn": "long_description", "interfaceName": null },
+    { "keyField": null, "matchedColumn": "latitude", "interfaceName": null },
+    { "keyField": null, "matchedColumn": "longitude", "interfaceName": null },
+    { "keyField": null, "matchedColumn": "image_url", "interfaceName": null },
+    { "keyField": null, "matchedColumn": "additional_images", "interfaceName": null },
+    { "keyField": null, "matchedColumn": "property_count", "interfaceName": null },
+    { "keyField": null, "matchedColumn": "featured", "interfaceName": null },
+    { "keyField": null, "matchedColumn": "slug", "interfaceName": null },
+    { "keyField": null, "matchedColumn": "meta_title", "interfaceName": null },
+    { "keyField": null, "matchedColumn": "meta_description", "interfaceName": null },
+    { "keyField": null, "matchedColumn": "keywords", "interfaceName": null },
+    { "keyField": null, "matchedColumn": "created_at", "interfaceName": null },
+    { "keyField": null, "matchedColumn": "updated_at", "interfaceName": null }
+  ],
+
+  "reviews":
+  [
+    { "keyField": null, "matchedColumn": "id", "interfaceName": null },
+    { "keyField": "propertyId", "matchedColumn": "property_id", "interfaceName": "Booking" },
+    { "keyField": "customerId", "matchedColumn": "user_id", "interfaceName": "Booking" },
+    { "keyField": null, "matchedColumn": "user_name", "interfaceName": null },
+    { "keyField": null, "matchedColumn": "user_image", "interfaceName": null },
+    { "keyField": "rating", "matchedColumn": "rating", "interfaceName": "Property" },
+    { "keyField": null, "matchedColumn": "title", "interfaceName": null },
+    { "keyField": null, "matchedColumn": "comment", "interfaceName": null },
+    { "keyField": null, "matchedColumn": "response", "interfaceName": null },
+    { "keyField": null, "matchedColumn": "response_date", "interfaceName": null },
+    { "keyField": null, "matchedColumn": "is_verified", "interfaceName": null },
+    { "keyField": null, "matchedColumn": "date", "interfaceName": null }
+  ],
+
+  "neighborhoods":
+  [
+    { "keyField": null, "matchedColumn": "id", "interfaceName": null },
+    { "keyField": "address.neighborhood", "matchedColumn": "name", "interfaceName": "Property" },
+    { "keyField": null, "matchedColumn": "city_id", "interfaceName": null },
+    { "keyField": null, "matchedColumn": "description", "interfaceName": null },
+    { "keyField": null, "matchedColumn": "long_description", "interfaceName": null },
+    { "keyField": "address.latitude", "matchedColumn": "latitude", "interfaceName": "Property" },
+    { "keyField": "address.longitude", "matchedColumn": "longitude", "interfaceName": "Property" },
+    { "keyField": null, "matchedColumn": "image_url", "interfaceName": null },
+    { "keyField": null, "matchedColumn": "additional_images", "interfaceName": null },
+    { "keyField": null, "matchedColumn": "property_count", "interfaceName": null },
+    { "keyField": null, "matchedColumn": "slug", "interfaceName": null },
+    { "keyField": null, "matchedColumn": "meta_title", "interfaceName": null },
+    { "keyField": null, "matchedColumn": "meta_description", "interfaceName": null },
+    { "keyField": null, "matchedColumn": "created_at", "interfaceName": null },
+    { "keyField": null, "matchedColumn": "updated_at", "interfaceName": null }
+  ],
+
+  "favorites":
+  [
+    { "keyField": "customerId", "matchedColumn": "user_id", "interfaceName": "Booking" },
+    { "keyField": "propertyId", "matchedColumn": "property_id", "interfaceName": "Booking" },
+    { "keyField": null, "matchedColumn": "id", "interfaceName": null },
+    { "keyField": null, "matchedColumn": "created_at", "interfaceName": null }
+  ],
+
+  "api_integrations":
+  [
+    { "keyField": null, "matchedColumn": "id", "interfaceName": null },
+    { "keyField": null, "matchedColumn": "name", "interfaceName": null },
+    { "keyField": null, "matchedColumn": "service_type", "interfaceName": null },
+    { "keyField": null, "matchedColumn": "api_key", "interfaceName": null },
+    { "keyField": null, "matchedColumn": "api_secret", "interfaceName": null },
+    { "keyField": null, "matchedColumn": "base_url", "interfaceName": null },
+    { "keyField": null, "matchedColumn": "is_active", "interfaceName": null },
+    { "keyField": null, "matchedColumn": "last_synced_at", "interfaceName": null },
+    { "keyField": null, "matchedColumn": "sync_frequency", "interfaceName": null },
+    { "keyField": null, "matchedColumn": "created_at", "interfaceName": null },
+    { "keyField": null, "matchedColumn": "updated_at", "interfaceName": null }
+  ]
+
+
+
+
+}
+
