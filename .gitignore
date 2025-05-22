@@ -1,0 +1,22 @@
+# Env
+.env
+.env.local
+
+# Node
+node_modules/
+
+# Build
+dist/
+server/public/
+.vite/
+.esbuild/
+
+# Logs
+*.log
+
+# Drizzle
+.drizzle/
+
+# IDE/system
+.vscode/
+.DS_Store
