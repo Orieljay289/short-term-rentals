@@ -1,0 +1,14 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1747903380366,
+      "tag": "0003_parallel_sentinels",
+      "breakpoints": true
+    }
+  ]
+}
